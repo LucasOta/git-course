@@ -1,1 +1,7 @@
-const sum = (a, b) => a + b;
+/*
+* 'a' es un array de numeros
+*/
+const sum = (a) => {
+    const result = 0;
+    a.map((n)=> result += n);
+};
