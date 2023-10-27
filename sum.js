@@ -4,4 +4,5 @@
 const sum = (a) => {
     const result = 0;
     a.map((n)=> result += n);
+    return result;
 };
