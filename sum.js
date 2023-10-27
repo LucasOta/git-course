@@ -1,7 +1,10 @@
 /**
- * Sum function. Recibe 2 valores y los suma
- * @param {number} a
- * @param {number} b
+ * Sum function. Recibe un array de numeros y los suma
+ * @param {number[]} a
  * @returns {number}
  */
-const sum = (a, b) => a + b;
+const sum = (a) => {
+    const result = 0;
+    a.map((n)=> result += n);
+    return result;
+};
